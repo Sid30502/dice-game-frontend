@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { joinGame, rollDice } from './api';
+import { joinGame, rollDice } from '../utils/api';
 
 const Game = () => {
   const [username, setUsername] = useState('');
